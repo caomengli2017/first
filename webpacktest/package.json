@@ -5,11 +5,12 @@
   "main": "webpack.config.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start":"webpack"
+    "start": "webpack"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "copy-webpack-plugin": "^4.0.1",
     "html-webpack-plugin": "^2.30.1",
     "webpack": "^3.6.0"
   }
